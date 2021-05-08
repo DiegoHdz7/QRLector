@@ -1,0 +1,59 @@
+body{
+    font-size: 100%;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(51, 53, 54);
+    justify-content: center;
+    padding-top: 2rem;
+   
+}
+
+
+#logo{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin-top: 0;
+    margin-right: 3rem;
+   
+    
+    
+
+}
+
+#title{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5rem;
+    line-height: 7rem;
+    color: white;
+        
+}
+
+nav{
+    background-color: rgb(14, 15, 14);
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    justify-content: center;
+    
+}
+
+nav>*{
+    margin: 1rem;
+}
+
+footer{
+    display: flex;
+    flex-flow: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#firstInfo{
+    display: flex;
+    flex-flow: row wrap;
+}

@@ -1,0 +1,158 @@
+body{
+    font-size: 100%;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(51, 53, 54);
+    justify-content: center;
+    padding-top: 2rem;
+   
+}
+
+
+#logo{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin-top: 0;
+    margin-right: 3rem;
+   
+    
+    
+
+}
+
+#title{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5rem;
+    line-height: 7rem;
+    color: white;
+        
+}
+
+nav{
+    background-color: rgb(14, 15, 14);
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    justify-content: center;
+    
+}
+
+nav>*{
+    margin: 1rem;
+}
+
+footer{
+    display: flex;
+    flex-flow: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#firstInfo{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+#contactInfo{
+    background-color: rgb(119, 126, 128);
+    color: white;
+    flex: 1 1 40%;
+    box-sizing: border-box;
+    padding-left:12rem;
+    padding-right: 0rem; 
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    
+}
+
+
+
+
+
+#localPic{
+    background-color: rgb(90, 93, 94);
+    flex: 1 1 60%;
+}
+
+#img-fachada{
+    display: inline-block;
+    width: 600px;
+    height: 450px;
+    margin: 2rem 4rem 2rem 4rem;
+
+}
+
+#secondInfo{
+    background-color: black;
+    color: white;
+    height: 10rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#secondInfo >*{
+    padding:0.5rem;
+    border-right: 0.1rem solid white;
+}
+
+#secondInfo >a{
+    border-right: 0 !important;
+}
+
+
+
+/**** INDEX CONTENT OPTIONS *********/
+#pageContent{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: rgb(90, 93, 94);;
+    color: white;
+   
+}
+
+#pageContent>*{
+    
+    border: 0.2rem solid white;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+}
+
+/**** page content options************/
+
+.pageContent_options:hover{
+    background-color: white;
+    color: black;
+}
+
+#showContent{
+    background-color: black;
+    color: white;
+
+}
+
+table{
+    margin-left:auto;
+    margin-right: auto;
+    background-color: rgb(90, 93, 94);
+    color: white;
+    border-collapse: collapse;
+}
+
+
+th, td {
+    border: 2px solid white;
+    text-align: center;
+    padding: 1rem;
+   
+}
