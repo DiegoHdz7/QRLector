@@ -10,7 +10,7 @@ router.get('/', (req, res, next) => {
     res.render('index.html');
 });
 
-router.post('https://qr-lector.herokuapp.com/login', async (req, res) => {
+router.post('/login', async (req, res) => {
 
     const userFound = await User.find({ email: req.body.email });
     const userExist = await User.exists({ email: req.body.email });
