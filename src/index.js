@@ -10,7 +10,9 @@ const mongoose = require('mongoose');
 const app = express();
 
 //db connection
-mongoose.connect('mongodb://localhost/qr_lector', {useNewUrlParser: true, useUnifiedTopology: true});
+const mongodbURI = "mongodb+srv://chinolyn7:chinolyn7@cluster0.rorin.mongodb.net/qr-lector?retryWrites=true&w=majority";
+//mongoose.connect('mongodb://localhost/qr_lector', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect(mongodbURI, {useNewUrlParser: true, useUnifiedTopology: true});
 
 //static files
 app.use(express.static(path.join(__dirname+'/public')));
