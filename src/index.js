@@ -5,7 +5,8 @@ const ejs = require('ejs');// not necessary
 const path = require('path');
 const morgan = require('morgan');
 const mongoose = require('mongoose');
-
+const cors = require('cors');
+1
 // starting express
 const app = express();
 
@@ -24,6 +25,7 @@ app.set('views', path.join(__dirname+'/HTML')); // views is a component from a e
 app.engine('html', require('ejs').renderFile);
 
 //middlewares
+app.use(cors());
 app.use(morgan('dev'));
 app.use(express.urlencoded({extended:false}));// para convertir los formularios del cliente a JSON
 app.use(express.json());

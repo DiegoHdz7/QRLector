@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/DiegoHdz7/QRLector#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "mongoose": "^5.12.7",
