@@ -41,7 +41,7 @@ function main(){
         //console.log({email:email, password:password});
        
        // const response =   await fetch('http://localhost:3000/login', {
-        const response = await fetch('https://qr-lector.herokuapp.com/', {
+        const response = await fetch('https://qr-lector.herokuapp.com/login', {
             headers: {'content-type':'application/json'}, // funciona con o sin este tipo de content-type
             method:'POST',
             body:JSON.stringify(data)
