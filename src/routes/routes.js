@@ -6,7 +6,6 @@ const User = require('../schemes/user');
 
 
 router.get('/', (req, res, next) => {
-    console.log(user);
     res.render('index.html');
 });
 
