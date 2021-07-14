@@ -25,6 +25,8 @@ header{
 
 }
 
+
+
 #title{
     display: inline-block;
     font-family: 'Roboto', sans-serif;
@@ -47,6 +49,9 @@ nav>*{
     margin: 1rem;
 }
 
+
+
+/*footer*/
 footer{
     display: flex;
     flex-flow: column;
@@ -56,4 +61,52 @@ footer{
 #firstInfo{
     display: flex;
     flex-flow: row wrap;
+    
 }
+
+#contactInfo{
+    background-color: rgb(119, 126, 128);
+    color: white;
+    flex: 1 1 40%;
+    box-sizing: border-box;
+    padding-left:12rem;
+    padding-right: 0rem; 
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    
+}
+
+#localPic{
+    background-color: rgb(90, 93, 94);
+    flex: 1 1 60%;
+}
+
+#img-fachada{
+    display: inline-block;
+    width: 600px;
+    height: 450px;
+    margin: 2rem 4rem 2rem 4rem;
+
+}
+
+#secondInfo{
+    background-color: black;
+    color: white;
+    height: 10rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#secondInfo >*{
+    padding:0.5rem;
+    border-right: 0.1rem solid white;
+}
+
+#secondInfo >a{
+    border-right: 0 !important;
+}
+

@@ -14,10 +14,11 @@ const app = express();
 
 app.use(cors());
 
-//db connection
-const mongodbURI = "mongodb+srv://chinolyn7:chinolyn7@cluster0.rorin.mongodb.net/qr-lector?retryWrites=true&w=majority";
-//mongoose.connect('mongodb://localhost/qr_lector', {useNewUrlParser: true, useUnifiedTopology: true});
-mongoose.connect(mongodbURI, {useNewUrlParser: true, useUnifiedTopology: true});
+//db connection   //ALERT! CAMBIAR DB cuando se use local y cloud
+//const mongodbURI = "mongodb+srv://diegohdz:diegohdz@cluster0.rorin.mongodb.net/qr-lector?retryWrites=true&w=majority";
+//mongoose.connect(mongodbURI, {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb://localhost/qr_lector', {useNewUrlParser: true, useUnifiedTopology: true});
+
 
 //static files
 app.use(express.static(path.join(__dirname+'/public')));
@@ -25,7 +26,7 @@ app.use(express.static(path.join(__dirname+'/public')));
 
 //settings
 app.set('port',process.env.PORT || 3000);
-app.set('views', path.join(__dirname+'/HTML')); // views is a component from a express list to use in app.set
+app.set('views', path.join(__dirname+'/views')); // views is a component from a express list to use in app.set
 app.engine('html', require('ejs').renderFile);
 
 //middlewares

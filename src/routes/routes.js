@@ -6,7 +6,42 @@ const User = require('../schemes/user');
 
 
 router.get('/', (req, res, next) => {
-    res.render('index.html');
+    res.render('index.html', {title:'Inicio'});
+});
+
+router.get('/aboutUs', (req,res)=>{
+    res.render('aboutUs.html', {title:'Acerca de nosotros'});
+
+});
+
+router.get('/services', (req,res)=>{
+    res.render('services.html', {title:'Servicios'});
+
+});
+
+router.get('/permits', (req,res)=>{
+    res.render('permits.html', {title:'Permisos'});
+
+});
+
+router.get('/galery', (req,res)=>{
+    res.render('galery.html', {title:'Galeria'});
+
+});
+
+router.get('/ourTeam', (req,res)=>{
+    res.render('ourTeam.html', {title:'Nuestro equipo'});
+
+});
+
+router.get('/contact', (req,res)=>{
+    res.render('contact.html', {title:'Contacto'});
+
+});
+
+router.get('/jobBank', (req,res)=>{
+    res.render('jobBank.html', {title:'Bolsa de trabajo'});
+
 });
 
 router.post('/login', async (req, res) => {
