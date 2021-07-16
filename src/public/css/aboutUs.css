@@ -1,0 +1,84 @@
+
+/*Configuraciones generales*/
+body{
+    font-size: 100%;
+    background-color: rgb(46, 49, 49);
+    color: white;   
+   
+}
+
+.content{
+   
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    text-align: center;
+    padding: 3rem;
+
+}
+
+h2{
+    text-align: center;
+    padding: 1.5rem;
+}
+
+p{
+    padding: 1rem;
+    text-align: justify;
+    text-indent: 1rem;
+}
+
+#img_situacion{
+    width: 402px;
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*Flex lista scenes*/
+.flex_list_scenes{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}
+
+.item_list_1{
+    flex: 0 1 auto;
+}
+.item_list_2{
+    flex: 0 1 auto;
+}
+
+.item_list_3{
+    flex: 0 1 auto;
+}
+
+
+/*Sección escudo oficial*/
+.flex_escudo{
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 3rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item_escudo_1{
+    flex: 0 1 1;
+}
+
+.item_escudo_2{
+    flex: 0 1 600px;
+}
+
+
+
+
+
+

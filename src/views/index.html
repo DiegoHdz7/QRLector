@@ -1,33 +1,15 @@
-<%- include('partials/header.html');%>
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+    <%- include('partials/head.html');%>
+</head>
 
-
-
-    <!--Formulario LOGIN (inside nav bar)-->
-    <form class="d-flex was-validated" id="login-form">
-        <input class="form-control me-2 is-invalid" type="email" id="email" name="email" placeholder="Usuario"
-            aria-label="email" aria-describedby="login-ServerFeedback" required>
-        <input class="form-control me-2 is-in
-                        valid" type="password" id="password" name="password" placeholder="Contraseña"
-            aria-label="password" aria-describedby="login-ServerFeedback" required>
-
-
-        <div id="login-ServerFeedback" class="invalid-feedback">
-            Usuario o Contraseña invalidos.
-        </div>
-
-
-        <button class="btn btn-outline-light" type="submit" formenctype="application/x-www-form-urlencoded">
-            Ingresar</button>
-
-    </form>
-
-    
-    <%- include('partials/header_close.html');%>
-
-
-
-
-
-
+    <body>
+        <%- include('partials/header-navigation.html');%>
+        
         <%- include('partials/footer.html');%>
+        <script src="/js/indexJS.js"> </script>
+    </body>
+
+</html>
