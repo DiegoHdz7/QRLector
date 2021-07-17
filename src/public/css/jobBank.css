@@ -83,10 +83,12 @@ p{
 /* Medium devices (landscape tablets, 768px and up) */
  @media only screen and (min-width: 768px) {
     .content{
-    line-height: 2rem; 
-    width: 90%;
-    margin: auto;
-        
+   
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.5rem;
+        line-height: 2.5rem; 
     }
 
      /*flex-container-puestos*/
@@ -94,13 +96,13 @@ p{
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
-        width: 90%;
+        width: 100%;
         list-style-position: inside;
         margin-bottom: 2rem;
     }
     
     .item-puestos-lz{
-        flex: 0 1 auto;
+        flex: 1 1 auto;
         padding: 0.5rem;
     }
 
@@ -109,9 +111,11 @@ p{
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
-        width: 90%;
         list-style-position: inside;
+        margin-left: -15%;
         margin-bottom: 2rem;
+        font-size: 1.5rem;
+        width: 120%;
     }
     
     .item-doc-lz{
