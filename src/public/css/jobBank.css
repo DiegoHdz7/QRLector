@@ -1,0 +1,146 @@
+
+body{
+    font-size: 100%;
+    background-color: rgb(46, 49, 49);
+    color: white;  
+    
+   
+}
+
+h1{
+    text-align: center;
+    padding: 3rem;
+    font-weight: bolder;
+
+}
+
+h2{
+    text-align: center;
+    padding: 1.5rem;
+    font-weight: bold;
+}
+
+p{
+    padding: 2rem;
+    text-align: justify;
+    text-indent: 1rem;
+    width: 90%;
+    line-height: 2rem; 
+    
+}
+
+#business_city{
+    width: 100%;
+}
+
+/*flex cointainer perfil-doc*/
+.flex-container-puestos{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    width: 90%;
+    list-style-position: inside;
+    margin-bottom: 2rem;
+}
+
+.item-puestos{
+    flex: 0 1 auto;
+    padding: 0.5rem;
+}
+
+/*flex cointainer perfil*/
+.flex-container-perfil{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    width: 90%;
+    list-style-position: inside;
+    margin-bottom: 2rem;
+}
+
+.item-perfil{
+    flex: 0 1 auto;
+    padding: 0.5rem;
+}
+
+
+/*flex cointainer documentacion*/
+.flex-container-doc{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    width: 90%;
+    list-style-position: inside;
+    margin-bottom: 2rem;
+}
+
+.item-doc{
+    flex: 0 1 auto;
+    padding: 0.5rem;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    .content{
+    line-height: 2rem; 
+    width: 90%;
+    margin: auto;
+        
+    }
+
+     /*flex-container-puestos*/
+    .flex-container-puestos{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        width: 90%;
+        list-style-position: inside;
+        margin-bottom: 2rem;
+    }
+    
+    .item-puestos-lz{
+        flex: 0 1 auto;
+        padding: 0.5rem;
+    }
+
+     /*flex-container-puestos*/
+     .flex-container-doc{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        width: 90%;
+        list-style-position: inside;
+        margin-bottom: 2rem;
+    }
+    
+    .item-doc-lz{
+        flex: 0 1 auto;
+        padding: 0.5rem;
+    }
+
+
+ }
+
+
+
+
+
+
+
+ /* Extra small devices (phones, 600px and down) */
+ /*@media only screen and (max-width: 600px) {...}
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ /*@media only screen and (min-width: 600px) {...}
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ /*@media only screen and (min-width: 768px) {...}
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ /*@media only screen and (min-width: 992px) {...}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ /*@media only screen and (min-width: 1200px) {...} 
+
+*/

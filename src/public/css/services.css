@@ -1,0 +1,96 @@
+
+/*Configuraciones generales*/
+body{
+    font-size: 100%;
+    background-color: rgb(46, 49, 49);
+    color: white;  
+    
+   
+}
+
+.content{
+   
+  
+    font-size: 1.5rem;
+    line-height: 2.5rem; 
+}
+
+h1{
+    text-align: center;
+    padding: 3rem;
+    font-weight: bolder;
+
+}
+
+h2{
+    text-align: center;
+    padding: 1.5rem;
+    font-weight: bold;
+}
+
+p{
+    padding: 1rem;
+    text-align: justify;
+    text-indent: 1rem;
+    
+}
+
+/*header image*/
+#img_patrullando{
+   width: 100%;
+   
+}
+
+/*header image*/
+#img_sectores{
+    display: block;
+    margin: auto;
+    padding: 2rem;
+}
+
+/*flex container secciones*/
+/*for mobile devices*/
+.flex-container-secciones{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+.item-sec{
+    flex: 0 1 30%;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    .flex-container-secciones{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    
+    .item-sec{
+        flex: 0 1 30%;
+    }
+
+ }
+
+
+
+
+ /* Extra small devices (phones, 600px and down) */
+ /*@media only screen and (max-width: 600px) {...}
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ /*@media only screen and (min-width: 600px) {...}
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ /*@media only screen and (min-width: 768px) {...}
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ /*@media only screen and (min-width: 992px) {...}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ /*@media only screen and (min-width: 1200px) {...} 
+
+*/

@@ -3,51 +3,81 @@
 
 <head>
     <%- include('partials/head.html');%>
+        <link rel="stylesheet" href="/css/jobBank.css">
 </head>
 
 <body>
     <%- include('partials/header-navigation.html');%>
-        <h1>Bolsa de trabajo</h1>
-        <h2>QUIERES INTEGRARTE A NUESTRO EQUIPO</h2>
-        <p>En Sistema Especial de Seguridad Privada en el área operativa y administrativa se puede competir por los
-            puestos y seguir subiendo de acuerdo a las habilidades del personal, los resultados de las evaluaciones y
-            cursos proporcionados:</p>
-        <ol>
-            <li>Auxiliar administrativo</li>
-            <li>Auxiliar de Contabilidad</li>
-            <li>Auxiliar de Recursos Humanos</li>
-            <li>Auxiliar de Marketing Digital</li>
-            <li>Auxiliar de ventas</li>
-            <li>Coordinador Operativo</li>
-            <li>Supervisor</li>
-            <li>Auxiliar de Supervisor</li>
-            <li>Encargado de servicio (alfa)</li>
-            <li>Guardia de Seguridad</li>
-        </ol>
+        <img alt="busines city" src="/img/business_city.jpg" id="business_city">
 
-        <p>Nos interesa el siguiente perfil:</p>
-        <ol>
-            <li>Sexo: Indistinto</li>
-            <li>Edad: 20 a 45 años</li>
-            <li>Estado Civil: Indistinto</li>
-            <li>Disponibilidad de horario: Posible rotación de turno y ubicación de trabajo de acuerdo a las habilidades
-                personales</li>
-            <li>Verifica en "Nuestro Equipo" el perfil idóneo</li>
-        </ol>
+        <div class="content">
+            <h1>Bolsa de trabajo</h1>
+            <h2>¿QUIERES INTEGRARTE A NUESTRO EQUIPO?</h2>
+            <p>En Sistema Especial de Seguridad Privada en el área operativa y administrativa se puede competir por los
+                puestos y seguir subiendo de acuerdo a las habilidades del personal, los resultados de las evaluaciones
+                y
+                cursos proporcionados:</p>
+            <ol class="flex-container-puestos">
 
-        <p>Requerimos que tengas en original la siguiente documentación:</p>
-        <ol>
-            <li>SOLICITUD DE EMPLEO Y/O CURRICULUM VITAE</li>
-            <li>INE VIGENTE</li>
-            <li>ACTA DE NACIMIENTO</li>
-            <li>CURP</li>
-            <li>RFC</li>
-            <li>CERTIFICADO DE ESTUDIOS (AL MENOS SECUNDARIA)</li>
-            <li>CARTILLA MILITAR O PRE - CARTILLA</li>
-            <li>COMPROBANTE DE DOMICILIO NO MAYOR A 3 MESES</li>
-            <li>NO TENER ANTECEDENTES PENALES</li>
-            <li>CERTIFICADO MEDICO NO MAYOR A 3 MESES </li>
-        </ol>
+                <div class="item-puestos-lz">
+                    <li class="item-puestos">Auxiliar administrativo</li>
+                    <li class="item-puestos">Auxiliar de Contabilidad</li>
+                    <li class="item-puestos">Auxiliar de Recursos Humanos</li>
+                    <li class="item-puestos">Auxiliar de Marketing Digital</li>
+                    <li class="item-puestos">Auxiliar de ventas</li>
+
+                </div>
+
+                <div class="item-puestos-lz">
+                    <li class="item-puestos">Coordinador Operativo</li>
+                    <li class="item-puestos">Supervisor</li>
+                    <li class="item-puestos">Auxiliar de Supervisor</li>
+                    <li class="item-puestos">Encargado de servicio (alfa)</li>
+                    <li class="item-puestos">Guardia de Seguridad</li>
+
+                </div>
+
+
+            </ol>
+
+            <p>Nos interesa el siguiente perfil:</p>
+            <ol class="flex-container-perfil">
+                <li class="item-perfil">Sexo: Indistinto</li>
+                <li class="item-perfil">Edad: 20 a 45 años</li>
+                <li class="item-perfil">Estado Civil: Indistinto</li>
+                <li class="item-perfil">Disponibilidad de horario: Posible rotación de turno y ubicación de trabajo
+                    de acuerdo a las habilidades
+                    personales</li>
+                <li class="item-perfil">Verifica en "Nuestro Equipo" el perfil idóneo</li>
+            </ol>
+
+            <p>Requerimos que tengas en original la siguiente documentación:</p>
+
+
+            <ol class="flex-container-doc">
+                <div class="item-doc-lz">
+                    <li class="item-doc"> SOLICITUD DE EMPLEO Y/O CURRICULUM VITAE</li>
+                    <li class="item-doc"> INE VIGENTE</li>
+                    <li class="item-doc"> ACTA DE NACIMIENTO</li>
+                    <li class="item-doc"> CURP</li>
+                    <li class="item-doc"> RFC</li>
+
+                </div>
+
+                <div class="item-doc-lz">
+                    <li class="item-doc"> CERTIFICADO DE ESTUDIOS (AL MENOS SECUNDARIA)</li>
+                    <li class="item-doc"> CARTILLA MILITAR O PRE - CARTILLA</li>
+                    <li class="item-doc"> COMPROBANTE DE DOMICILIO NO MAYOR A 3 MESES</li>
+                    <li class="item-doc"> NO TENER ANTECEDENTES PENALES</li>
+                    <li class="item-doc"> CERTIFICADO MEDICO NO MAYOR A 3 MESES </li>
+
+                </div>
+
+
+            </ol>
+
+        </div>
+
 
 
         <%- include('partials/footer.html');%>

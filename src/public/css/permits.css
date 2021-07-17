@@ -1,0 +1,68 @@
+/*Configuraciones generales*/
+body{
+    font-size: 100%;
+    background-color: rgb(46, 49, 49);
+    color: white;  
+    
+   
+}
+
+h1{
+    text-align: center;
+    padding: 3rem;
+    font-weight: bolder;
+
+}
+
+h2{
+    text-align: center;
+    padding: 1.5rem;
+    font-weight: bold;
+}
+
+p{
+    padding: 2rem;
+    text-align: justify;
+    text-indent: 1rem;
+    width: 90%;
+    margin: auto;
+    line-height: 2rem; 
+    
+}
+
+/*imagen permisos*/
+#img_permiso{
+    width: 100%;
+    
+}
+
+
+
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+    #img_permiso{
+        display: block;
+        width:initial;
+        margin: auto;
+    }
+ }
+
+
+
+
+ /* Extra small devices (phones, 600px and down) */
+ /*@media only screen and (max-width: 600px) {...}
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ /*@media only screen and (min-width: 600px) {...}
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ /*@media only screen and (min-width: 768px) {...}
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ /*@media only screen and (min-width: 992px) {...}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ /*@media only screen and (min-width: 1200px) {...} 
+
+*/
