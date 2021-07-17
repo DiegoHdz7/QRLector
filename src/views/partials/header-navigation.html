@@ -4,59 +4,55 @@
 </header>
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navBar">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
-                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="/">Inicio</a>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="/aboutUs">Acerca de nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="/services">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/permits">Permisos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="/galery">Galería</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="/ourTeam">Nuestro equipo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="/contact">Contácto</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link " href="/jobBank">Bolsa de trabajo</a>
-                    </li>
-                </ul>
-
-                <!--Formulario LOGIN (inside nav bar)-->
-            <form class="d-flex was-validated" id="login-form">
-                <input class="form-control me-2 is-invalid" type="email" id="email" name="email" placeholder="Usuario"
-                    aria-label="email" aria-describedby="login-ServerFeedback" required>
-                <input class="form-control me-2 is-in
-                        valid" type="password" id="password" name="password" placeholder="Contraseña"
-                    aria-label="password" aria-describedby="login-ServerFeedback" required>
+<!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navBar">-->
+<nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand " href="/"> <img src="/img/escudo-oficial.webp" width="50" height="50"
+            alt="escudo oficial"> Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            
+            <a class="nav-link" href="/aboutUs">Acerca de nosotros</a>
+            <a class="nav-link " href="/services">Servicios</a>
+            <a class="nav-link" href="/permits">Permisos</a>
+            <a class="nav-link " href="/galery">Galería</a>
+            <a class="nav-link " href="/ourTeam">Nuestro equipo</a>
+            <a class="nav-link " href="/contact">Contácto</a>
+            <a class="nav-link " href="/jobBank">Bolsa de trabajo</a>
 
 
-                <div id="login-ServerFeedback" class="invalid-feedback">
-                    Usuario o Contraseña invalidos.
-                </div>
-
-
-                <button class="btn btn-outline-light" type="submit" formenctype="application/x-www-form-urlencoded">
-                    Ingresar</button>
-
-            </form>
-
-            </div>
         </div>
-    </nav>
+
+
+
+    </div>
+</nav>
+
+
+
+<!--Formulario LOGIN (inside nav bar)-->
+<form class="d-flex was-validated" id="login-form">
+    <input class="form-control me-2 is-invalid" type="email" id="email" name="email" placeholder="Usuario"
+        aria-label="email" aria-describedby="login-ServerFeedback" required>
+    <input class="form-control me-2 is-in
+                        valid" type="password" id="password" name="password" placeholder="Contraseña"
+        aria-label="password" aria-describedby="login-ServerFeedback" required>
+
+
+    <div id="login-ServerFeedback" class="invalid-feedback">
+        Usuario o Contraseña invalidos.
+    </div>
+
+
+    <button class="btn btn-outline-light" type="submit" formenctype="application/x-www-form-urlencoded">
+        Ingresar</button>
+
+</form>
+
+</div>
+</div>
+</nav>
