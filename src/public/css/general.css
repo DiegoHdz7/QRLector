@@ -8,38 +8,35 @@ body{
 
 
 
-header{
+
+.flex-top-shield-title{
     display: flex;
     flex-flow: row wrap;
     background-color: rgb(51, 53, 54);
     justify-content: center;
+    align-items: center;
     padding-top: 2rem;
    
 }
 
-
 #logo{
-    display: inline-block;
+    flex: 1 1 1;
     width: 150px;
     height: 150px;
-    margin-top: 0;
-    margin-right: 3rem;
-   
-    
-    
-
 }
 
 
-
 #title{
-    display: inline-block;
     font-family: 'Roboto', sans-serif;
     font-size: 3.5rem;
     line-height: 7rem;
     color: white;
         
 }
+
+
+
+
 
 
 
