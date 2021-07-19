@@ -7,7 +7,7 @@ body{
 }
 
 
-
+/*Flex cointainer shield logo and title*/
 
 .flex-top-shield-title{
     display: flex;
@@ -41,18 +41,63 @@ body{
 
 
 
-/*footer*/
+/* Footer contact info*/
 footer{
-    display: flex;
-    flex-flow: column;
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgb(119, 126, 128);
+    font-size: 2rem;
+    
+    
+}
+footer>h2{
+    font-size: 3rem;
 }
 
+
+
+.item-contact>p{
+    text-align: center;
+    
+}
+#img-fachada{
+    width: 90%;
+    display: block;
+    margin: auto;
+    
+}
+
+.flex-phone-email{
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+padding: 1rem;
+margin: auto auto 3rem auto;
+
+}
+
+.item-phone-email{
+    flex: 1 1 50%;
+    
+    
+    
+}
+
+.item-phone-email>a{
+    color: white;
+}
+
+
+
+
+/*
 #firstInfo{
     display: flex;
     flex-flow: row wrap;
     
 }
+
+
 
 #contactInfo{
     background-color: rgb(119, 126, 128);
@@ -99,4 +144,4 @@ footer{
 #secondInfo >a{
     border-right: 0 !important;
 }
-
+*/
