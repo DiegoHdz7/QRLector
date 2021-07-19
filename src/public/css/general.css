@@ -41,18 +41,6 @@ header{
         
 }
 
-nav{
-    background-color: rgb(14, 15, 14);
-    display: flex;
-    flex-flow: row wrap;
-    color: white;
-    justify-content: center;
-    
-}
-
-nav>*{
-    margin: 1rem;
-}
 
 
 
