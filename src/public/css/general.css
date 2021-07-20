@@ -47,38 +47,76 @@ footer{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color:rgb(119, 126, 128);
     font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
     
     
 }
-footer>h2{
+footer>h2 {
     font-size: 3rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 3rem;
 }
 
+footer>p {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+
+/*Informacion de contacto e imagen invertidos*/
+
+.flex-contact{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.item-contact-1{
+    flex:0 1 20%;
+    display: inline-block;
+    text-align: right;
+}
+.item-contact-2{
+    flex:0 1 70%;
+    display:inline-block;
+    text-align: left;
+}
 
 
 .item-contact>p{
     text-align: center;
+    color: white;
     
 }
 #img-fachada{
-    width: 90%;
-    display: block;
+    width: 70%;
+    display: inline-block;
     margin: auto;
     
 }
 
+
+/* links de contacto flex row*/
 .flex-phone-email{
 display: flex;
-flex-flow: row wrap;
-align-items: center;
+flex-flow: column ;
+justify-content:space-around;
+align-items:center;
 padding: 1rem;
 margin: auto auto 3rem auto;
 
 }
 
 .item-phone-email{
-    flex: 1 1 50%;
-    
+    flex: 0 1 auto;
+    color: white;
+    text-align: center;
     
     
 }
@@ -87,61 +125,48 @@ margin: auto auto 3rem auto;
     color: white;
 }
 
-
-
-
-/*
-#firstInfo{
+/* footer-bottom*/
+.flex-footer-bottom{
+    margin-top: 2rem;
     display: flex;
     flex-flow: row wrap;
-    
+    justify-content: space-around;
+    font-size: 1.5rem;
 }
 
-
-
-#contactInfo{
-    background-color: rgb(119, 126, 128);
+.item-footer-bottom-1{
+    flex: 0 1 auto;
+}
+.item-footer-bottom-2{
+    flex: 0 1 auto;
+    text-align: center;
     color: white;
-    flex: 1 1 40%;
-    box-sizing: border-box;
-    padding-left:12rem;
-    padding-right: 0rem; 
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    
 }
 
-#localPic{
-    background-color: rgb(90, 93, 94);
-    flex: 1 1 60%;
+.item-footer-bottom-2>a{
+    color: white;
 }
 
-#img-fachada{
-    display: inline-block;
-    width: 600px;
-    height: 450px;
-    margin: 2rem 4rem 2rem 4rem;
 
-}
-
-#secondInfo{
+.footer-bottom{
     background-color: black;
     color: white;
-    height: 10rem;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-    
+    padding-top: 2rem;
 }
 
-#secondInfo >*{
-    padding:0.5rem;
-    border-right: 0.1rem solid white;
+.footer-bottom > p {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1.5rem;
 }
 
-#secondInfo >a{
-    border-right: 0 !important;
+.footer-bottom > a {
+    color: white;
+    display: block;
+    font-size: 2rem;
+    text-align: center;
 }
-*/
+
+
+
