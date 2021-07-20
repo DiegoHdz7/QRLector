@@ -10,15 +10,13 @@ body{
 }
 
 .content{
-   
-    width: 90%;
     margin-left: auto;
     margin-right: auto;
     font-size: 3rem;
 
 }
 
-h1{
+.content>h1{
     font-size: 3rem;
     text-align: center;
     padding: 3rem;
@@ -26,19 +24,20 @@ h1{
 
 }
 
-h2{
+.content>h2{
     font-size: 3rem;
     text-align: center;
     padding: 1.5rem;
     font-weight: bold;
 }
 
-p{
-    
+.content>p{
+    width: 90%;
     padding: 1rem;
     text-align: justify;
     text-indent: 1rem;
     line-height: 6rem;
+    margin: auto;
 }
 
 #img_situacion{
@@ -76,6 +75,8 @@ p{
 
 
 /*Sección escudo oficial*/
+
+/*
 .flex_escudo{
     display: flex;
     flex-flow: row wrap;
@@ -93,7 +94,42 @@ p{
     flex: 0 1 600px;
     margin-top: 3rem;
 }
+*/
 
+#img_escudo_oficial{
+    display: block;
+    margin: 2rem auto 2rem auto;
+    
+}
+
+.item_escudo_2>h2{
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+.item_escudo_2>p{
+    
+    width: 90%;
+    padding: 1rem;
+    text-align: justify;
+    text-indent: 1rem;
+    line-height: 6rem;
+    margin: auto;
+
+
+}
+
+.item_escudo_2>ul{
+    
+    width: 90%;
+    padding: 1rem;
+    line-height: 6rem;
+    margin: auto;
+    list-style-position: inside;
+
+
+}
 
 
 
