@@ -213,5 +213,11 @@ margin: auto auto 3rem auto;
     text-align: center;
 }
 
+.item-phone-email > p {
+    line-height: normal;
+    font-size: 2rem;
+    text-align: center;
+}
+
 
 
