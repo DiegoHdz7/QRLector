@@ -1,10 +1,49 @@
 body{
     font-size: 100%;
-    margin: 0;
     background-color: rgb(46, 49, 49);
     color: white;   
    
 }
+
+/*General settings*/
+.content > h1{
+    font-size: 3rem  ;
+    text-align: center;
+    padding: 3rem;
+    font-weight: bolder;
+
+}
+
+.content > h2{
+    font-size: 3rem  ;
+    text-align: center;
+    padding: 1.5rem;
+    font-weight: bold;
+}
+
+
+p{
+    width: 90%;
+    padding: 1rem;
+    font-size: 3rem;
+    text-align: justify;
+    text-indent: 1rem;
+    line-height: 6rem;
+    margin: auto;
+}
+
+ul, ol{
+    
+    width: 90%;
+    font-size: 3rem;
+    padding: 1rem;
+    line-height: 6rem;
+    margin: auto;
+    list-style-position: inside;
+
+
+}
+
 
 
 /*Flex cointainer shield logo and title*/
@@ -119,6 +158,12 @@ margin: auto auto 3rem auto;
     text-align: center;
     
     
+    
+}
+
+.item-phone-email>p{
+    line-height:normal;
+    font-size: 2rem;
 }
 
 .item-phone-email>a{

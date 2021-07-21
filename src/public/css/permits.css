@@ -7,29 +7,6 @@ body{
    
 }
 
-h1{
-    text-align: center;
-    padding: 3rem;
-    font-weight: bolder;
-
-}
-
-h2{
-    text-align: center;
-    padding: 1.5rem;
-    font-weight: bold;
-}
-
-p{
-    padding: 2rem;
-    text-align: justify;
-    text-indent: 1rem;
-    width: 90%;
-    margin: auto;
-    line-height: 2rem; 
-    
-}
-
 /*imagen permisos*/
 #img_permiso{
     width: 100%;

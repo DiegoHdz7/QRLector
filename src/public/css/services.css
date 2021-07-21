@@ -1,38 +1,17 @@
 
 /*Configuraciones generales*/
 body{
-    font-size: 100%;
+    
     background-color: rgb(46, 49, 49);
     color: white;  
     
    
 }
 
-.content{
-   width: 90%;
-    line-height: 2.5rem; 
-}
-
-h1{
+.content>div>div>h2{
+    font-size: 3rem;
     text-align: center;
-    padding: 3rem;
-    font-weight: bolder;
-
 }
-
-h2{
-    text-align: center;
-    padding: 1.5rem;
-    font-weight: bold;
-}
-
-p{
-    padding: 1rem;
-    text-align: justify;
-    text-indent: 1rem;
-    
-}
-
 /*header image*/
 #img_patrullando{
    width: 100%;

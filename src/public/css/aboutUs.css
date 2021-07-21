@@ -9,39 +9,8 @@ body{
    
 }
 
-.content{
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 3rem;
-
-}
-
-.content>h1{
-    font-size: 3rem;
-    text-align: center;
-    padding: 3rem;
-    font-weight: bolder;
-
-}
-
-.content>h2{
-    font-size: 3rem;
-    text-align: center;
-    padding: 1.5rem;
-    font-weight: bold;
-}
-
-.content>p{
-    width: 90%;
-    padding: 1rem;
-    text-align: justify;
-    text-indent: 1rem;
-    line-height: 6rem;
-    margin: auto;
-}
-
 #img_situacion{
-    width: 100%;
+    width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -73,28 +42,6 @@ body{
     margin-top: 3rem;
 }
 
-
-/*Sección escudo oficial*/
-
-/*
-.flex_escudo{
-    display: flex;
-    flex-flow: row wrap;
-    padding-bottom: 3rem;
-    margin-top: 3rem;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.item_escudo_1{
-    flex: 0 1 1;
-}
-
-.item_escudo_2>ul>li{
-    flex: 0 1 600px;
-    margin-top: 3rem;
-}
-*/
 
 #img_escudo_oficial{
     display: block;

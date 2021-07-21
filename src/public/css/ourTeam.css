@@ -7,31 +7,9 @@ body{
    
 }
 
-.content{
-       
-    line-height: 2rem; 
-    width: 90%;
-    margin: auto;
-}
-
-h1{
+.content>div>div>h3{
+    font-size: 3rem;
     text-align: center;
-    padding: 3rem;
-    font-weight: bolder;
-
-}
-
-h2{
-    text-align: center;
-    padding: 1.5rem;
-    font-weight: bold;
-}
-
-p{
-    padding: 1rem;
-    text-align: justify;
-    text-indent: 1rem;
-    
 }
 
 .flex-container-caracteristicas{
